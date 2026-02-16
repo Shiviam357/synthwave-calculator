@@ -1,0 +1,6 @@
+
+{
+  "name": "Synthwave Calculator",
+  "description": "A stylish retro-futuristic calculator with a synthwave-inspired color scheme. Built with React and Tailwind CSS, it performs all your basic arithmetic operations.",
+  "requestFramePermissions": []
+}
