@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎹 Synthwave Calculator
+[![Live Demo](https://img.shields.io/badge/demo-online-neon?style=for-the-badge&color=ff00ff)](https://shiviam-synth-calc.netlify.app/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-# Run and deploy your AI Studio app
+A high-performance, retro-themed arithmetic calculator. This project demonstrates clean UI/UX design principles, state management in React, and type-safe development using TypeScript.
 
-This contains everything you need to run your app locally.
+## ✨ Features
+* **Retro Synthwave UI:** Neon aesthetics with custom CSS gradients and glow effects.
+* **Precision Logic:** Handles basic arithmetic operations with floating-point accuracy.
+* **Responsive Design:** Fully functional across mobile, tablet, and desktop views.
+* **Type Safety:** Built with TypeScript to ensure robust error handling and code quality.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VXP9dRo8Z153AuyFJgx2bghL-UflGfZM
+## 🛠️ Tech Stack
+* **Frontend:** React.js
+* **Language:** TypeScript
+* **Styling:** CSS3 (Flexbox/Grid with Synthwave color palette)
+* **Deployment:** Netlify (CI/CD integrated)
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Local Development
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/Shiviam357/synthwave-calculator.git](https://github.com/Shiviam357/synthwave-calculator.git)
