@@ -1,11 +1,11 @@
 const CACHE_NAME = 'synthwave-calculator-v5'; // Bump version to force update
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/index.tsx',
-  '/App.tsx',
-  '/components/Button.tsx',
+  './',
+  './index.html',
+  './manifest.json',
+  './index.tsx',
+  './App.tsx',
+  './components/Button.tsx',
   'https://cdn.tailwindcss.com',
   'https://esm.sh/react@19.0.0',
   'https://esm.sh/react-dom@19.0.0/client',
