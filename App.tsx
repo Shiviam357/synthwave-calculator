@@ -1,6 +1,12 @@
 
 import React, { useState, useMemo } from 'react';
-import Button from './components/Button';
+
+const LocalButton = ({ label, onClick, className }: { label: string, onClick: (l: string) => void, className: string }) => (
+  <button onClick={() => onClick(label)} className={className}>
+    {label}
+  </button>
+);
+
 
 const App: React.FC = () => {
   const [currentValue, setCurrentValue] = useState<string>('0');
@@ -163,7 +169,7 @@ const App: React.FC = () => {
         {/* Keypad */}
         <div className="grid grid-cols-4 gap-3">
           {buttons.map((btn) => (
-             <Button
+             <LocalButton
                 key={btn}
                 label={btn}
                 onClick={handleButtonClick}
